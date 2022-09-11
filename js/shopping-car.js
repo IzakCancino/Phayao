@@ -1,8 +1,37 @@
 let shoppingCar = {
     products: [],
     prices: [],
-    descriptions: []
+    descriptions: [],
+    amount: []
 };
+
+function addToTheCar(elmnt) {
+    let i = shoppingCar.products.indexOf(elmnt.name);
+
+    if (i === -1) {
+        shoppingCar.products.push(elmnt.name);
+        shoppingCar.prices.push(elmnt.price);
+        shoppingCar.descriptions.push(elmnt.description);
+        shoppingCar.amount.push(1);
+    } else {
+        shoppingCar.amount[i]++
+    }
+}
+
+function removeFromTheCar(elmnt) {
+    let i = shoppingCar.products.indexOf(elmnt.name);
+
+    shoppingCar.amount[i]--
+
+    if(shoppingCar.amount[i] === 0) {
+        shoppingCar.products.splice(i, 1);
+        shoppingCar.prices.splice(i, 1);
+        shoppingCar.descriptions.splice(i, 1);
+        shoppingCar.amount.splice(i, 1);
+    }
+}
+
+// PRODUCTOS
 
 class Product {
     constructor(name, price, description) {
@@ -17,7 +46,7 @@ let padThai = new Product("Pad Thai", 85, "Se trata de fideos de arroz fritos co
 
 let somTam = new Product("Som Tam", 45, "Una ensalada de papaya típica de la región de Isan, la zona más grande y poblada de Tailandia y la menos visitada. Además de la papaya, lleva chili, ajo, tomate y cacahuetes. Se aliña con una salsa de pescado (pla raa).");
 
-let khaoPadSaparod = new Product("Khao Pad Saparod", 45, "Se trata de arroz frito con gambas o pollo, piña, huevo, anacardos, pasas y salsa de pescado. Se hace con curri en polvo, así que también tiene un toque de sabor a curri.");
+let kaoPadSeparod = new Product("Kao Pad Separod", 45, "Se trata de arroz frito con gambas o pollo, piña, huevo, anacardos, pasas y salsa de pescado. Se hace con curri en polvo, así que también tiene un toque de sabor a curri.");
 
 let kaiPadMedMamuang = new Product("Kai Pad Med Mamuang", 99, "Se trata de un plato de pollo, anacardos, pimienta, cebolla, champiñones y todo con una salsa hecha de salsa de ostras y soja. Se acompaña de un plato de arroz blanco o integral.");
 
@@ -43,7 +72,7 @@ let naManao = new Product("Na Manao", 25, "Se trata de una bebida refrescante qu
 
 let sodadeManao = new Product("Soda de Manao", 25, "Este es un refresco que se prepara con jugo de lima fresco servido con agua de soda y jarabe de azúcar.");
 
-let singhacerveza = new Product("Singha cerveza", 25, "Se trata de una bebida universal y claro, cada país tiene sus propias marcas y sus propias maneras de prepararlo.");
+let singhaCerveza = new Product("Singha cerveza", 25, "Se trata de una bebida universal y claro, cada país tiene sus propias marcas y sus propias maneras de prepararlo.");
 
 let siamMary = new Product("Siam Mary", 30, "Sabor fuerte, preparado con chile tailandés, wasabi, albahaca, cilantro, hierba de limón y jugo de tomate.");
 
@@ -53,15 +82,10 @@ let oliangcafe = new Product("Oliang cafe", 30, "Tienen su propia marca y manera
 // Postres
 let khaoTomMad = new Product("Khao Tom Mad", 35, "Es un delicioso postre tradicional tailandés hecho de arroz glutinoso, plátano, leche de coco, todo ello en una hoja de plátano.");
 
-let stickyRiceconmango = new Product("Sticky Rice con mango", 30, "Es una especie de arroz con leche que se hace con crema de coco y se sirve con mango fresco al lado, lleno de sabor, dulce y fresco.");
+let stickyRiceconMango = new Product("Sticky Rice con mango", 30, "Es una especie de arroz con leche que se hace con crema de coco y se sirve con mango fresco al lado, lleno de sabor, dulce y fresco.");
 
 let kluayTod = new Product("Kluay Tod", 40, "Plátanos fritos con leche de almendra.");
 
 let khanomTarn = new Product("Khanom Tarn", 40, "Estos pequeños pastelitos están hechos de palmito (cogollo de la palmera) al vapor para después, en una cesta hecha de hoja de palmera.");
 
 let khanomPangWan = new Product("Khanom Pang Wan", 35, "Panes de hamburguesa rellenos de ingredientes dulces y multicolores, o los Salim más conocidos como fideos de cristal en leche de coco dulce.");
-
-
-
-
-console.log(padThai)
