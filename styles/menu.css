@@ -1,0 +1,113 @@
+#comida, #postres, #bebidas {
+    display: flex;
+    flex-flow: row wrap;
+    width: 98%;
+    justify-content: center;
+    background-color: var(--colorBlancoA);
+    margin: 1%;
+    margin-top: 0px;
+}
+
+.tarjeta {
+    width: 25%;
+    font-family: Montserrat;
+    text-align: center;
+    margin: 3%;
+    font-size: 1.6rem;
+}
+
+.tarjeta img {
+    width: 100%;
+}
+
+.contador {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contador p {
+    margin: 0px;
+    flex-basis: 40%;
+    background-color: var(--colorBlancoB);
+}
+
+.contador button {
+    border: none;
+    color: var(--colorBlancoA);
+    height: 100%;
+    font-size: 1.6rem;
+    flex-basis: 10%;
+}
+
+.menosBtn {
+    background-color: var(--colorRojoC);
+}
+
+.masBtn {
+    background-color: var(--colorVerdeC);
+}
+
+.descripcionBtn {
+    border: none;
+    margin: 2% 0;
+    padding: 0.3rem 2px;
+    font-size: 1rem;
+    background-color: var(--colorCafeA);
+    color: var(--colorBlancoA);
+    min-width: 40%;
+    max-width: auto;
+}
+
+
+#secciones {
+    padding: 10px 1% 0px 1%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+#secciones button {
+    border: none;
+    margin: 2% 0;
+    padding: 0.5rem 10px;
+    font-size: 1.3rem;
+    background-color: var(--colorCafeA);
+    color: var(--colorBlancoA);
+    border-radius: 5px;
+    min-width: 40%;
+    max-width: auto;
+    transition: background-color 100ms linear 0s;
+}
+
+#secciones button:hover {
+    background-color: var(--colorCafeB);
+}
+
+#secciones div {
+    padding: 10px 0px 10px 0px;
+    height: 50px;
+    background-color: var(--colorBlancoA);
+    width: 33.33%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#btnComidas {
+    background-color: var(--colorBlancoA);
+}
+
+.deselectedSeccion {
+    background-color: transparent !important;
+}
+
+.deselectedGrupo {
+    display: none !important;
+}

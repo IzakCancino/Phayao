@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+}
+
+header {
+	height: 50px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--colorVerdeC);
+	padding: 3px;
+}
+
+#img-logo {
+	height: 100%;
+}
+
+#logo {
+	height: 100%;
+	flex-basis: 5%;
+}
+
+#img-carrito {
+	height: 80%;
+	float: right;
+}
+
+#carrito {
+	height: 95%;
+	flex-basis: 10%;
+	display: flex;
+	padding-right: 1.5%;
+	align-content: center;
+	align-items: center;
+	justify-content: flex-end;
+	justify-items: center;
+}
+
+nav {
+	height: 60%;
+	flex-basis: 70%;
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+}
+
+nav a {
+	flex-basis: 10%;
+	flex-grow: 0.5;
+	margin: 5px 13px;
+	color: var(--colorBlancoA);
+	text-decoration: none;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+}
+
+#div-space-gr {
+	width: 40%;
+	flex-basis: 60%;
+	flex-grow: 1.5;
+	height: 100%;
+}

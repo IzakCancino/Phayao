@@ -1,0 +1,49 @@
+footer {
+    display: flex;
+    background-color: var(--colorVerdeD);
+    font-family: Montserrat;
+    color: var(--colorBlancoA);
+    padding: 40px 0px;
+}
+
+#footer-izq {
+    width: 50%;
+    padding-left: 5%;
+}
+
+#footer-der {
+    width: 50%;
+    padding-left: 5%;
+    border-left: var(--colorVerdeC) solid 2px;
+}
+
+#mapa {
+    width: 90%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#footer-der a {
+    display: block;
+    text-decoration: none;
+    color: var(--colorVerdeA);
+    padding: 5px 3px 5px 0px;
+}
+
+#cc {
+    font-weight: 200;
+    padding: 70px 15px 0px 15px;
+    text-align: center;
+}
+
+
+#footer-ubicacion, #footer-telefono, #footer-email, #footer-inicio, #footer-menu, #footer-contacto, #footer-reservaciones {
+	display: flex;
+	align-items: center;
+	
+}
+
+#footer-ubicacion img, #footer-telefono img, #footer-email img, #footer-inicio img, #footer-menu img, #footer-contacto img, #footer-reservaciones img {
+	height: 1.17em;
+	padding: 0px 8px 0px 0px;
+}

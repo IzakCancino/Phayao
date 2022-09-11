@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    /*font-size: 2vw;*/
+    --colorVerdeA: #cdf5cc;
+    --colorVerdeB: #90e68f;
+    --colorVerdeC: #519950;
+    --colorVerdeD: #2d3c2d;
+    --colorRosaA: #cbc3f7;
+    --colorRosaB: #b0a5e6;
+    --colorRosaC: #a297dc;
+    --colorRojoA: #edb991;
+    --colorRojoB: #e6a777;
+    --colorRojoC: #997457;
+    --colorBlancoA: whitesmoke;
+    --colorBlancoB: rgb(222, 222, 222);
+    --colorCafeA: #c16d46;
+    --colorCafeB: #cb8665;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-style: oblique;
+}
+
+@media only screen and (max-width: 800px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        font-size: 12px;
+    }
+}
