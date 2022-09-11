@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Phayao / Reservaciones</title>
-
-	<link rel="stylesheet" type="text/css" href="styles/universal.css">
-	<link rel="stylesheet" type="text/css" href="styles/header.css">
-	<link rel="stylesheet" type="text/css" href="styles/index.css">
-	<link rel="stylesheet" type="text/css" href="styles/footer.css">
-	<link rel="icon" href="media/logo.png">
-</head>
-<body>
-	<header>
-		<div id="logo">
-			<img src="media/logoName.png" id="img-logo">
-		</div>
-		<nav>
-			<a href="index.html" id="inicio">Inicio</a>
-			<a href="menu.html" id="menu">Menú</a>
-			<a href="reservaciones.html" id="reservaciones">Reservaciones</a>
-			<a href="contactanos.html" id="contactanos">Contáctanos</a>
-			<div id="div-space-gr"></div>
-		</nav>
-		<div id="carrito">
-			<img src="media/icons/carrito.png" id="img-carrito">
-		</div>
-	</header>
-
-    <footer>
+<footer>
 		<div id="footer-izq">
 			<div id="footer-ubicacion">
 				<img src="media/icons/ubicacion.png" id="img-ubicacion">
@@ -50,22 +22,20 @@
 			<h3>Enlaces:</h3>
 			<div id="footer-inicio">
 				<img src="media/icons/casa.png" id="img-casa">
-				<a href="index.html" id="footer-inicio">Inicio</a>
+				<a href="index.php" id="footer-inicio">Inicio</a>
 			</div>
 			<div id="footer-menu">
 				<img src="media/icons/menu.png" id="img-menu">
-				<a href="menu.html" id="footer-menu">Menú</a>
+				<a href="menu.php" id="footer-menu">Menú</a>
 			</div>
 			<div id="footer-reservaciones">
 				<img src="media/icons/reservaciones.png" id="img-reservaciones">
-				<a href="reservaciones.html" id="footer-reservaciones">Reservaciones</a>
+				<a href="reservaciones.php" id="footer-reservaciones">Reservaciones</a>
 			</div>
 			<div id="footer-contacto">
 				<img src="media/icons/contacto.png" id="img-contactanos">
-				<a href="contactanos.html" id="footer-contactanos">Contáctanos</a>
+				<a href="contactanos.php" id="footer-contactanos">Contáctanos</a>
 			</div>
 			<p id="cc">Sitio desarrollado por: Izak Cancino</p>
 		</div>
 	</footer>
-</body>
-</html>
