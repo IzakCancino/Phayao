@@ -43,10 +43,30 @@
 
 .menosBtn {
     background-color: var(--colorRojoC);
+    transition: background-color 80ms ease-out 0s;
+}
+
+.menosBtn:hover:enabled {
+    background-color: var(--colorRojoD);
+    transition: background-color 80ms ease-out 0s;
+}
+
+.menosBtn:active:enabled {
+    background-color: var(--colorRojoE);
 }
 
 .masBtn {
     background-color: var(--colorVerdeC);
+    transition: background-color 80ms ease-out 0s;
+}
+
+.masBtn:hover:enabled {
+    background-color: var(--colorVerdeE);
+    transition: background-color 80ms ease-out 0s;
+}
+
+.masBtn:active:enabled {
+    background-color: var(--colorVerdeD);
 }
 
 .descripcionBtn {

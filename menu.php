@@ -274,6 +274,7 @@
     include("layouts/footer.php"); 
 ?>
 
+	<script src="js/create-items.js"></script>
 	<script src="js/shopping-car.js"></script>
 	<script src="js/menu-contadores.js"></script>
 	<script src="js/menu-categorias.js"></script>

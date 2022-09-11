@@ -5,6 +5,7 @@ html {
     --colorVerdeA: #cdf5cc;
     --colorVerdeB: #90e68f;
     --colorVerdeC: #519950;
+    --colorVerdeE: #3d7d3c;
     --colorVerdeD: #2d3c2d;
     --colorRosaA: #cbc3f7;
     --colorRosaB: #b0a5e6;
@@ -12,6 +13,8 @@ html {
     --colorRojoA: #edb991;
     --colorRojoB: #e6a777;
     --colorRojoC: #997457;
+    --colorRojoD: #7a583e;
+    --colorRojoE: #5f432d;
     --colorBlancoA: whitesmoke;
     --colorBlancoB: rgb(222, 222, 222);
     --colorCafeA: #c16d46;
