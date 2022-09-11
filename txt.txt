@@ -36,7 +36,7 @@ Panes de hamburguesa rellenos de ingredientes dulces y multicolores, o los Salim
 BEBIDAS
 
 Cha Yen $20
-se trata de un tipo de té negro que se prepara con agua hirviendo y se combina con un  poco de leche condensada azucarada, pero su proceso no se termina aquí, pues parte de su sabor es la forma de servirse sobre hielo, con azúcar y un poco de leche evaporada encima.
+Se trata de un tipo de té negro que se prepara con agua hirviendo y se combina con un  poco de leche condensada azucarada, pero su proceso no se termina aquí, pues parte de su sabor es la forma de servirse sobre hielo, con azúcar y un poco de leche evaporada encima.
 
 Cha Manao $25
 Algo que particularmente llama la atención de este tipo de té, es su sabor similar al de Chan Yen, pero en lugar de usar la leche condensada, se usa jugo de lima recién exprimido.
@@ -86,5 +86,5 @@ Se hace remojando rápidamente los fideos en el caldo hirviendo y añadiendo el 
 Yam Ma Khwa Yao $85
 Se trata de una ensalada de berenjena con salsa de pescado, limón, cebolleta, huevos y gambitas secas. Tiene un sabor dulce-salado y, a veces, algo picante.
 
-Kai/Mu Satae $85
+Kai Mu Satae $85
 Son pinchos de pollo o cerdo. Los pinchos se hacen a la barbacoa y se comen una deliciosa ensalada de cacahuete.
