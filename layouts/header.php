@@ -12,6 +12,6 @@
 			<div id="div-space-gr"></div>
 		</nav>
 		<div id="carrito">
-			<img src="media/icons/carrito.png" id="img-carrito">
+			<img src="media/icons/carrito.png" id="img-carrito" onclick="window.open('shopping-car.php', '_top')">
 		</div>
 	</header>

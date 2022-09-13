@@ -1,0 +1,5 @@
+Re habilitar cache, DevTools > Network > DisableCache / Dismark
+
+Cambiar el nombre de las fotos al de las variables
+
+Poner clases especiales "data" a las tarjetas para evitar mas calculos

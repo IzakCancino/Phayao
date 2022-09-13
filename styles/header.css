@@ -4,6 +4,7 @@ body {
 
 header {
 	height: 50px;
+	max-width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
 	align-content: center;
@@ -25,10 +26,17 @@ header {
 #img-carrito {
 	height: 80%;
 	float: right;
+	cursor: pointer;
+	transition: all 80ms ease 0s;
+}
+
+#img-carrito:hover {
+	filter: brightness(0.9);
 }
 
 #carrito {
 	height: 95%;
+	width: 10%;
 	flex-basis: 10%;
 	display: flex;
 	padding-right: 1.5%;

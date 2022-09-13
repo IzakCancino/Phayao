@@ -39,6 +39,7 @@
     height: 100%;
     font-size: 1.6rem;
     flex-basis: 10%;
+    cursor: pointer;
 }
 
 .menosBtn {
@@ -78,6 +79,17 @@
     color: var(--colorBlancoA);
     min-width: 40%;
     max-width: auto;
+    cursor: pointer;
+    transition: background-color 80ms ease-out 0s;
+}
+
+.descripcionBtn:hover {
+    background-color: var(--colorCafeB);
+    transition: background-color 80ms ease-out 0s;
+}
+
+.descripcionBtn:active {
+    background-color: var(--colorCafeC);
 }
 
 
@@ -88,7 +100,6 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    
 }
 
 #secciones button {
@@ -102,6 +113,7 @@
     min-width: 40%;
     max-width: auto;
     transition: background-color 100ms linear 0s;
+    cursor: pointer;
 }
 
 #secciones button:hover {

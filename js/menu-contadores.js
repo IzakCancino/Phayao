@@ -2,7 +2,7 @@
 let cards = document.querySelectorAll(".tarjeta");
 cards = [].slice.call(cards);
 
-// Funcion para convertir el titulo de la tarjeta en el valor de tipo: xxxXxxXxx
+// Función para convertir el titulo de la tarjeta en el valor de tipo: xxxXxxXxx
 function obtainProduct(elmnt) {
     let aux = elmnt
                 .children[0]
@@ -20,7 +20,6 @@ function obtainProduct(elmnt) {
 function stateBtn(elmnt, bool) {
     elmnt.disabled = bool;
 }
-
 
 // Botones menos
 let less = cards.map((elmnt => {
@@ -46,6 +45,7 @@ let less = cards.map((elmnt => {
             elmnt.children[2].children[1].innerText = shoppingCar.amount[i];
         }
     });
+    
 
     // Bloquea los botones " - " si el contador marca 0
     if (parseInt(elmnt.children[2].children[1].innerText) === 0) {
@@ -80,3 +80,8 @@ let more = cards.map((elmnt => {
 
     return btn;
 }));
+
+//   Previene que se actualize la pagina con un pop-up
+// window.onbeforeunload = function() {
+//     return "any alert mssg";
+// }
