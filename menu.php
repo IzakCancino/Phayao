@@ -24,8 +24,8 @@
 	<section id="comida" class="grupo">
 		<div class="tarjeta comida" id="producto1A">
 			<h3>Pad Thai</h3>
-			<img src="media/comidas/Pad-Thai.jpg">
-			<div class="contador">
+			<img src="media/productos/padThai.jpg" alt="padThai">
+			<div class="contador" data-productName="padThai">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -35,8 +35,8 @@
 
 		<div class="tarjeta comida" id="producto2A">
 			<h3>Som Tam</h3>
-			<img src="media/comidas/Som-Tam.jpg">
-			<div class="contador">
+			<img src="media/productos/somTam.jpg" alt="somTam">
+			<div class="contador" data-productName="somTam">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -46,8 +46,8 @@
 
 		<div class="tarjeta comida" id="producto3A">
 			<h3>Kao Pad Separod</h3>
-			<img src="media/comidas/Kao-Pad-Saparot.jpg">
-			<div class="contador">
+			<img src="media/productos/kaoPadSeparod.jpg" alt="kaoPadSeparod">
+			<div class="contador" data-productName="kaoPadSeparod">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -57,8 +57,8 @@
 
 		<div class="tarjeta comida" id="producto4A">
 			<h3>Kai Pad Med Mamuang</h3>
-			<img src="media/comidas/Kai-Pad-Med-Mamuang.jpg">
-			<div class="contador">
+			<img src="media/productos/kaiPadMedMamuang.jpg" alt="kaiPadMedMamuang">
+			<div class="contador" data-productName="kaiPadMedMamuang">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -68,8 +68,8 @@
 
 		<div class="tarjeta comida" id="producto5A">
 			<h3>Pad Krapau</h3>
-			<img src="media/comidas/Pad-Krapau.jpg">
-			<div class="contador">
+			<img src="media/productos/padKrapau.jpg" alt="padKrapau">
+			<div class="contador" data-productName="padKrapau">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -79,8 +79,8 @@
 
 		<div class="tarjeta comida" id="producto6A">
 			<h3>Pad Siuw</h3>
-			<img src="media/comidas/Pad-Siuw.jpg">
-			<div class="contador">
+			<img src="media/productos/padSiuw.jpg" alt="padSiuw">
+			<div class="contador" data-productName="padSiuw">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -90,8 +90,8 @@
 
 		<div class="tarjeta comida" id="producto7A">
 			<h3>Kai Tod</h3>
-			<img src="media/comidas/Kai-Tod.jpg">
-			<div class="contador">
+			<img src="media/productos/kaiTod.jpg" alt="kaiTod">
+			<div class="contador" data-productName="kaiTod">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -101,8 +101,8 @@
 
 		<div class="tarjeta comida" id="producto8A">
 			<h3>Kuai Tieow</h3>
-			<img src="media/comidas/Kuai-Tieow.jpg">
-			<div class="contador">
+			<img src="media/productos/kuaiTieow.jpg" alt="kuaiTieow">
+			<div class="contador" data-productName="kuaiTieow">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -112,8 +112,8 @@
 
 		<div class="tarjeta comida" id="producto9A">
 			<h3>Yam Ma Khwa Yao</h3>
-			<img src="media/comidas/Yam-Ma-Khwa-Yao.jpg">
-			<div class="contador">
+			<img src="media/productos/yamMaKhwaYao.jpg" alt="yamMaKhwaYao">
+			<div class="contador" data-productName="yamMaKhwaYao">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -123,8 +123,8 @@
 
 		<div class="tarjeta comida" id="producto10A">
 			<h3>Kai Mu Satae</h3>
-			<img src="media/comidas/Kai-Mu-Satae.jpg">
-			<div class="contador">
+			<img src="media/productos/kaiMuSatae.jpg" alt="kaiMuSatae">
+			<div class="contador" data-productName="kaiMuSatae">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -136,8 +136,8 @@
 	<section id="postres" class="grupo deselectedGrupo">
 		<div class="tarjeta postre" id="producto1B">
 			<h3>Khao Tom Mad</h3>
-			<img src="media/postres/Khao-Tom-Mad.jpg">
-			<div class="contador">
+			<img src="media/productos/khaoTomMad.jpg" alt="khaoTomMad">
+			<div class="contador"  data-productName="khaoTomMad">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -147,8 +147,8 @@
 
 		<div class="tarjeta postre" id="producto2B">
 			<h3>Sticky Rice con Mango</h3>
-			<img src="media/postres/Sticky-Rice-con-Mango.jpg">
-			<div class="contador">
+			<img src="media/productos/stickyRiceconMango.jpg" alt="stickyRiceconMango">
+			<div class="contador" data-productName="stickyRiceconMango">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -158,8 +158,8 @@
 
 		<div class="tarjeta postre" id="producto3B">
 			<h3>Kluay Tod</h3>
-			<img src="media/postres/Kluay-Tod.jpg">
-			<div class="contador">
+			<img src="media/productos/kluayTod.jpg" alt="kluayTod">
+			<div class="contador" data-productName="kluayTod">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -169,8 +169,8 @@
 
 		<div class="tarjeta postre" id="producto4B">
 			<h3>Khanom Tarn</h3>
-			<img src="media/postres/Khanom-Tarn.jpg">
-			<div class="contador">
+			<img src="media/productos/khanomTarn.jpg" alt="khanomTarn">
+			<div class="contador" data-productName="khanomTarn">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -180,8 +180,8 @@
 
 		<div class="tarjeta postre" id="producto5B">
 			<h3>Khanom Pang Wan</h3>
-			<img src="media/postres/Khanom-Pang-Wan.jpg">
-			<div class="contador">
+			<img src="media/productos/khanomPangWan.jpg" alt="khanomPangWan">
+			<div class="contador" data-productName="khanomPangWan">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -193,8 +193,8 @@
 	<section id="bebidas" class="grupo deselectedGrupo">
 		<div class="tarjeta bebida" id="producto1C">
 			<h3>Cha Yen</h3>
-			<img src="media/bebidas/Cha-Yen.jpg">
-			<div class="contador">
+			<img src="media/productos/chaYen.jpg" alt="chaYen">
+			<div class="contador" data-productName="chaYen">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -204,8 +204,8 @@
 
 		<div class="tarjeta bebida" id="producto2C">
 			<h3>Cha Manao</h3>
-			<img src="media/bebidas/Cha-Manao.jpg">
-			<div class="contador">
+			<img src="media/productos/chaManao.jpg" alt="chaManao">
+			<div class="contador" data-productName="chaManao">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -215,8 +215,8 @@
 
 		<div class="tarjeta bebida" id="producto3C">
 			<h3>Na Manao</h3>
-			<img src="media/bebidas/Nam-Manao.jpg">
-			<div class="contador">
+			<img src="media/productos/naManao.jpg" alt="naManao">
+			<div class="contador" data-productName="naManao">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -226,8 +226,8 @@
 
 		<div class="tarjeta bebida" id="producto4C">
 			<h3>Soda de Manao</h3>
-			<img src="media/bebidas/Soda-de-Manao.jpg">
-			<div class="contador">
+			<img src="media/productos/sodadeManao.jpg" alt="sodadeManao">
+			<div class="contador" data-productName="sodadeManao">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -237,8 +237,8 @@
 
 		<div class="tarjeta bebida" id="producto5C">
 			<h3>Singha Cerveza</h3>
-			<img src="media/bebidas/Singha-Cerveza.jpg">
-			<div class="contador">
+			<img src="media/productos/singhaCerveza.jpg" alt="singhaCerveza">
+			<div class="contador" data-productName="singhaCerveza">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -248,8 +248,8 @@
 
 		<div class="tarjeta bebida" id="producto6C">
 			<h3>Siam Mary</h3>
-			<img src="media/bebidas/Siam-Mary.jpg">
-			<div class="contador">
+			<img src="media/productos/siamMary.jpg" alt="siamMary">
+			<div class="contador" data-productName="siamMary">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>
@@ -259,8 +259,8 @@
 
 		<div class="tarjeta bebida" id="producto7C">
 			<h3>Oliang cafe</h3>
-			<img src="media/bebidas/Oliang-Cafe.jpg">
-			<div class="contador">
+			<img src="media/productos/oliangCafe.jpg" alt="oliangCafe">
+			<div class="contador" data-productName="oliangCafe">
 				<button class="menosBtn">-</button>
 				<p>0</p>
 				<button class="masBtn">+</button>

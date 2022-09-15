@@ -32,11 +32,11 @@
             </div>
 
             <div class="product">
-                <h3>Producto</h3>
+                <h3>Cha Yen</h3>
                 <p>$0</p>
             </div>
 
-            <div class="contador">
+            <div class="contador" data-productName="">
                     <button class="menosBtn">-</button>
                     <p>0</p>
                     <button class="masBtn">+</button>
@@ -54,11 +54,11 @@
             </div>
 
             <div class="product">
-                <h3>Producto</h3>
+                <h3>Cha Yen</h3>
                 <p>$0</p>
             </div>
 
-            <div class="contador">
+            <div class="contador" data-productName="">
                     <button class="menosBtn">-</button>
                     <p>0</p>
                     <button class="masBtn">+</button>
@@ -76,16 +76,17 @@
             </div>
 
             <div class="product">
-                <h3>Producto</h3>
+                <h3>Cha Yen</h3>
                 <p>$0</p>
             </div>
 
-            <div class="contador">
+            <div class="contador" data-productName="">
                     <button class="menosBtn">-</button>
                     <p>0</p>
                     <button class="masBtn">+</button>
                     <button class="deleteBtn"><img src="media/icons/delete.png" alt="Delete icon"></button>
             </div>
+
         </div>
     </section>
 </main>
@@ -95,12 +96,10 @@
     include("layouts/footer.php"); 
 ?>
 
+    <script src="js/create-items.js"></script>
+	<script src="js/shopping-car.js"></script>
+	<script src="js/menu-contadores.js"></script>
+    <script src="js/cards-shopping-car.js"></script>
+
 </body>
 </html>
-
-<!-- <div class="contador">
-                    <button class="menosBtn">-</button>
-                    <p>0</p>
-                    <button class="masBtn">+</button>
-                    <button class="deleteBtn"><img src="media/icons/delete.png" alt="Delete icon"></button>
-            </div> -->

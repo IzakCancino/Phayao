@@ -28,7 +28,6 @@ function addToTheCar(elmnt) {
 
 // Elimina algun elemento al shoppingCar y actualiza el almacenamiento local
 function removeFromTheCar(elmnt) {
-    let obj = eval(elmnt);
     let i = shoppingCar.names.indexOf(elmnt);
 
     shoppingCar.amount[i]--
