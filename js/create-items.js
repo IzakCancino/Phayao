@@ -42,7 +42,7 @@ let singhaCerveza = new Product("Singha Cerveza", 25, "Se trata de una bebida un
 
 let siamMary = new Product("Siam Mary", 30, "Sabor fuerte, preparado con chile tailandés, wasabi, albahaca, cilantro, hierba de limón y jugo de tomate.", "Bebidas");
 
-let oliangcafe = new Product("Oliang cafe", 30, "Tienen su propia marca y manera de prepararlo, se toma frío.", "Bebidas");
+let oliangCafe = new Product("Oliang cafe", 30, "Tienen su propia marca y manera de prepararlo, se toma frío.", "Bebidas");
 
 
 // Postres

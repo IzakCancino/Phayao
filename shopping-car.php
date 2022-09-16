@@ -24,69 +24,24 @@
     <section id="products">
         <div class="tarjeta">
             <div class="num">
-                <p>#0</p>
+                <p>#X</p>
             </div>
 
             <div class="imgs">
-                <div class="product-img"><img src="media/bebidas/Cha-Yen.jpg" alt=""></div>
+                <div class="product-img"><img src="" alt=""></div>
             </div>
 
             <div class="product">
-                <h3>Cha Yen</h3>
-                <p>$0</p>
+                <h3>Product</h3>
+                <p>$X</p>
             </div>
 
             <div class="contador" data-productName="">
                     <button class="menosBtn">-</button>
-                    <p>0</p>
+                    <p>X</p>
                     <button class="masBtn">+</button>
                     <button class="deleteBtn"><img src="media/icons/delete.png" alt="Delete icon"></button>
             </div>
-        </div>
-
-        <div class="tarjeta">
-            <div class="num">
-                <p>#0</p>
-            </div>
-
-            <div class="imgs">
-                <div class="product-img"><img src="media/bebidas/Cha-Yen.jpg" alt=""></div>
-            </div>
-
-            <div class="product">
-                <h3>Cha Yen</h3>
-                <p>$0</p>
-            </div>
-
-            <div class="contador" data-productName="">
-                    <button class="menosBtn">-</button>
-                    <p>0</p>
-                    <button class="masBtn">+</button>
-                    <button class="deleteBtn"><img src="media/icons/delete.png" alt="Delete icon"></button>
-            </div>
-        </div>
-
-        <div class="tarjeta">
-            <div class="num">
-                <p>#0</p>
-            </div>
-
-            <div class="imgs">
-                <div class="product-img"><img src="media/bebidas/Cha-Yen.jpg" alt=""></div>
-            </div>
-
-            <div class="product">
-                <h3>Cha Yen</h3>
-                <p>$0</p>
-            </div>
-
-            <div class="contador" data-productName="">
-                    <button class="menosBtn">-</button>
-                    <p>0</p>
-                    <button class="masBtn">+</button>
-                    <button class="deleteBtn"><img src="media/icons/delete.png" alt="Delete icon"></button>
-            </div>
-
         </div>
     </section>
 </main>
@@ -98,8 +53,8 @@
 
     <script src="js/create-items.js"></script>
 	<script src="js/shopping-car.js"></script>
-	<script src="js/menu-contadores.js"></script>
     <script src="js/cards-shopping-car.js"></script>
+	<script src="js/menu-contadores.js"></script>
 
 </body>
 </html>

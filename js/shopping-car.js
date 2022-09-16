@@ -23,6 +23,8 @@ function addToTheCar(elmnt) {
         shoppingCar.amount[i]++
     }
 
+    console.log(shoppingCar);
+
     localStorage.setItem("shoppingCar", JSON.stringify(shoppingCar));
 }
 
@@ -37,6 +39,31 @@ function removeFromTheCar(elmnt) {
         shoppingCar.names.splice(i, 1);
         shoppingCar.amount.splice(i, 1);
     }
+
+    // if(shoppingCar.amount[i] === 0) {
+    //     if (/shopping-car.php/.test(window.location.href)) {
+    //         console.log("if TRUE")
+    //         if (confirm("Continuar?")) {
+    //             console.log("if TRUE");
+    //             shoppingCar.products.splice(i, 1);
+    //             shoppingCar.names.splice(i, 1);
+    //             shoppingCar.amount.splice(i, 1);
+    //         } else {
+    //             console.log("if FALSE");
+    //             score.innerText = parseInt(score.innerText) + 1;
+    //             shoppingCar.amount[i]++;
+    //         }
+    //         rechargeCards();
+    //         rechargeCnts();
+    //     } else {
+    //         console.log("if FALSE")
+    //         shoppingCar.products.splice(i, 1);
+    //         shoppingCar.names.splice(i, 1);
+    //         shoppingCar.amount.splice(i, 1);
+    //     }
+    // }
+
+    console.log(shoppingCar);
 
     localStorage.setItem("shoppingCar", JSON.stringify(shoppingCar));
 }

@@ -258,7 +258,7 @@
 		</div>
 
 		<div class="tarjeta bebida" id="producto7C">
-			<h3>Oliang cafe</h3>
+			<h3>Oliang Cafe</h3>
 			<img src="media/productos/oliangCafe.jpg" alt="oliangCafe">
 			<div class="contador" data-productName="oliangCafe">
 				<button class="menosBtn">-</button>
