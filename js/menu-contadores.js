@@ -3,6 +3,9 @@ function rechargeCnts() {
     let cntNodes = document.querySelectorAll(".contador");
     let cntArr = [].slice.call(cntNodes);
 
+    // Mensajes
+    let msgAlrtDltProduct = "¿Desea continuar? Si lo hace se eliminara el producto del carrito de compras";
+    let msgAlrtMaxCntProducts = "Lo sentimos, no es posible exceder la cantidad de 15 elementos de un mismo producto";
 
     // Función para convertir el titulo de la tarjeta en el valor de tipo: xxxXxxXxx
     function obtainProduct(cnt) {  //PENDIENTE!!!
@@ -10,17 +13,18 @@ function rechargeCnts() {
     }
 
     // Deshabilitador / habilitador de botones
-    function stateBtn(elmnt, bool) {  //PENDIENTE!!!
+    function stateBtn(elmnt, bool) {
         elmnt.disabled = bool;
     }
 
-    function removeProduct(score, cnt) {      //PENDIENTE!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // Función que edita y remueve un elemento del carrito y contador
+    function removeProduct(score, cnt) {
         score.innerText = parseInt(score.innerText) - 1;
         removeFromTheCar(obtainProduct(cnt));
         stateBtn(cnt.children[2], false);
     }
 
-    // Botones menos
+    // Botón menos de los contadores
     let less = cntArr.map((cnt => {
         let btn = cnt.children[0];
 
@@ -28,27 +32,27 @@ function rechargeCnts() {
             let score = cnt.children[1];
             if (parseInt(score.innerText) > 0) {  
                 if(parseInt(score.innerText) === 1) {
-                    console.log("if TRUE")
                     if (/shopping-car.php/.test(window.location.href)) {
-                        console.log("if TRUE")
-                        if (confirm("Continuar?")) {
-                            console.log("if TRUE");
+                        if (confirm(msgAlrtDltProduct)) {
                             removeProduct(score, cnt);
                             rechargeCards();
                             rechargeCntsAux();
                         }
                     } else {
-                        console.log("if FALSE");
                         removeProduct(score, cnt);
                     }
                 } else {
-                    console.log("if FALSE");
                     removeProduct(score, cnt);
                 }
 
                 if (parseInt(score.innerText) === 0) {
                     stateBtn(btn, true);
                 }
+            }
+
+            if (/shopping-car.php/.test(window.location.href)) {  
+                rechargeCards();
+                rechargeCntsAux();
             }
         });
 
@@ -64,11 +68,11 @@ function rechargeCnts() {
         if (parseInt(cnt.children[1].innerText) === 0) {
             stateBtn(btn, true);
         }
-
+        
         return btn;
     }));
 
-    // Botones mas
+    // Botón más de los contadores
     let more = cntArr.map((cnt => {
         let btn = cnt.children[2];
         stateBtn(btn, false);
@@ -83,20 +87,36 @@ function rechargeCnts() {
                     stateBtn(cnt.children[0], false);
                 }
             } else {
-                alert("Lo sentimos, no es posible exceder la cantidad de 15 elementos de un mismo producto");
+                alert(msgAlrtMaxCntProducts);
                 stateBtn(btn, true);
             }
 
-            
+            if (/shopping-car.php/.test(window.location.href)) {  
+                rechargeCards();
+                rechargeCntsAux();
+            }
         });
 
         return btn;
     }));
 
-    //   Previene que se actualize la pagina con un pop-up
-    // window.onbeforeunload = function() {
-    //     return "any alert mssg";
-    // }
+    // Botón delete de los contadores, solo si se esta en la pagina del shopping car
+    if (/shopping-car.php/.test(window.location.href)) {
+        let deletes = cntArr.map((cnt => {
+            let btn = cnt.children[3];
+
+            btn.addEventListener("click", () => {
+                let score = cnt.children[1];
+                if (confirm(msgAlrtDltProduct)) {
+                    deleteFromTheCar(obtainProduct(cnt));
+                    rechargeCards();
+                    rechargeCntsAux();
+                }
+            });
+
+            return btn;
+        }));
+    }
 }
 
 rechargeCnts();

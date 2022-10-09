@@ -10,10 +10,19 @@
 
 .tarjeta {
     width: 25%;
+    min-height: fit-content;
     font-family: Montserrat;
     text-align: center;
     margin: 3%;
     font-size: 1.6rem;
+}
+
+.tarjeta h3 {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
 }
 
 .tarjeta img {

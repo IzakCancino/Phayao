@@ -10,7 +10,7 @@ if (localStorage.getItem("shoppingCar")) {
     shoppingCar = obj;
 }
 
-// Agrega algun elemento al shoppingCar y actualiza el almacenamiento local
+// Agrega algún elemento del shoppingCar y actualiza el almacenamiento local
 function addToTheCar(elmnt) {
     let obj = eval(elmnt);
     let i = shoppingCar.names.indexOf(elmnt);
@@ -28,7 +28,7 @@ function addToTheCar(elmnt) {
     localStorage.setItem("shoppingCar", JSON.stringify(shoppingCar));
 }
 
-// Elimina algun elemento al shoppingCar y actualiza el almacenamiento local
+// Elimina algún elemento del shoppingCar y actualiza el almacenamiento local
 function removeFromTheCar(elmnt) {
     let i = shoppingCar.names.indexOf(elmnt);
 
@@ -40,29 +40,19 @@ function removeFromTheCar(elmnt) {
         shoppingCar.amount.splice(i, 1);
     }
 
-    // if(shoppingCar.amount[i] === 0) {
-    //     if (/shopping-car.php/.test(window.location.href)) {
-    //         console.log("if TRUE")
-    //         if (confirm("Continuar?")) {
-    //             console.log("if TRUE");
-    //             shoppingCar.products.splice(i, 1);
-    //             shoppingCar.names.splice(i, 1);
-    //             shoppingCar.amount.splice(i, 1);
-    //         } else {
-    //             console.log("if FALSE");
-    //             score.innerText = parseInt(score.innerText) + 1;
-    //             shoppingCar.amount[i]++;
-    //         }
-    //         rechargeCards();
-    //         rechargeCnts();
-    //     } else {
-    //         console.log("if FALSE")
-    //         shoppingCar.products.splice(i, 1);
-    //         shoppingCar.names.splice(i, 1);
-    //         shoppingCar.amount.splice(i, 1);
-    //     }
-    // }
+    console.log(shoppingCar);
 
+    localStorage.setItem("shoppingCar", JSON.stringify(shoppingCar));
+}
+
+// Elimina algún producto completamente del shoppingCar y actualiza el almacenamiento local
+function deleteFromTheCar(elmnt) {
+    let i = shoppingCar.names.indexOf(elmnt);
+
+    shoppingCar.products.splice(i, 1);
+    shoppingCar.names.splice(i, 1);
+    shoppingCar.amount.splice(i, 1);
+    
     console.log(shoppingCar);
 
     localStorage.setItem("shoppingCar", JSON.stringify(shoppingCar));

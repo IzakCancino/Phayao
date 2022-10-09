@@ -3,6 +3,7 @@
 ?>
 
 	<link rel="stylesheet" type="text/css" href="styles/menu.css">
+	<link rel="stylesheet" type="text/css" href="styles/description-pop-up.css">
 
 <?php 
     include("layouts/header.php"); 
@@ -30,7 +31,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="padThai">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto2A">
@@ -41,7 +42,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="somTam">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto3A">
@@ -52,7 +53,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="kaoPadSeparod">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto4A">
@@ -63,7 +64,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="kaiPadMedMamuang">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto5A">
@@ -74,7 +75,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="padKrapau">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto6A">
@@ -85,7 +86,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="padSiuw">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto7A">
@@ -96,7 +97,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="kaiTod">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto8A">
@@ -107,7 +108,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="kuaiTieow">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto9A">
@@ -118,7 +119,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="yamMaKhwaYao">Descripción</button>
 		</div>
 
 		<div class="tarjeta comida" id="producto10A">
@@ -129,7 +130,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="kaiMuSatae">Descripción</button>
 		</div>
 	</section>
 
@@ -142,7 +143,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="khaoTomMad">Descripción</button>
 		</div>
 
 		<div class="tarjeta postre" id="producto2B">
@@ -153,7 +154,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="stickyRiceconMango">Descripción</button>
 		</div>
 
 		<div class="tarjeta postre" id="producto3B">
@@ -164,7 +165,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="kluayTod">Descripción</button>
 		</div>
 
 		<div class="tarjeta postre" id="producto4B">
@@ -175,7 +176,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="khanomTarn">Descripción</button>
 		</div>
 
 		<div class="tarjeta postre" id="producto5B">
@@ -186,7 +187,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="khanomPangWan">Descripción</button>
 		</div>
 	</section>
 
@@ -199,7 +200,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="chaYen">Descripción</button>
 		</div>
 
 		<div class="tarjeta bebida" id="producto2C">
@@ -210,7 +211,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="chaManao">Descripción</button>
 		</div>
 
 		<div class="tarjeta bebida" id="producto3C">
@@ -221,7 +222,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="naManao">Descripción</button>
 		</div>
 
 		<div class="tarjeta bebida" id="producto4C">
@@ -232,7 +233,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="sodadeManao">Descripción</button>
 		</div>
 
 		<div class="tarjeta bebida" id="producto5C">
@@ -243,7 +244,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="singhaCerveza">Descripción</button>
 		</div>
 
 		<div class="tarjeta bebida" id="producto6C">
@@ -254,7 +255,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="siamMary">Descripción</button>
 		</div>
 
 		<div class="tarjeta bebida" id="producto7C">
@@ -265,7 +266,7 @@
 				<p>0</p>
 				<button class="masBtn">+</button>
 			</div>
-			<button class="descripcionBtn">Descripción</button>
+			<button class="descripcionBtn" data-productName="oliangCafe">Descripción</button>
 		</div>
 	</section>
 </main>
@@ -278,6 +279,7 @@
 	<script src="js/shopping-car.js"></script>
 	<script src="js/menu-contadores.js"></script>
 	<script src="js/menu-categorias.js"></script>
+	<script src="js/description-items.js"></script>
 
 </body>
 </html>

@@ -52,6 +52,10 @@ section#products {
     margin: 15px auto;
 }
 
+.product {
+    width: 20%;
+}
+
 /* nums */
 .num {
     width: 10%;
@@ -138,7 +142,7 @@ section#products {
     background-color: var(--colorVerdeD);
 }
 
-button.deleteBtn {
+button.deleteBtn, button.des-close {
     margin: 0px 10px;
     border-radius: 80px;
     max-width: 26px !important;
@@ -151,12 +155,12 @@ button.deleteBtn img {
     max-width: 15px;
 }
 
-button.deleteBtn:hover {
+button.deleteBtn:hover, button.des-closed:hover {
     background-color: #875252;
     transition: background-color 80ms ease-out 0s;
 }
 
-button.deleteBtn:active {
+button.deleteBtn:active, button.des-closed:active {
     background-color: #9e4444;
 }
 
@@ -175,8 +179,7 @@ button.deleteBtn:active {
         font-size: 1.5rem;
     }
 
-    button.deleteBtn img {
+    button.deleteBtn img, button.des-closed img {
         max-width: 12px;
     }
 }
-
