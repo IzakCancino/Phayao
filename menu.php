@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/description-pop-up.css">
 
 <?php 
-    include("layouts/header.php"); 
+    include("layouts/header.php");
 ?>
 
 <main>

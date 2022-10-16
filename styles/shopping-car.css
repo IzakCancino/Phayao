@@ -164,8 +164,6 @@ button.deleteBtn:active, button.des-closed:active {
     background-color: #9e4444;
 }
 
-
-
 @media only screen and (max-width: 710px) {
     section#info {
         width: 90%;
@@ -181,5 +179,20 @@ button.deleteBtn:active, button.des-closed:active {
 
     button.deleteBtn img, button.des-closed img {
         max-width: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 470px) {
+    .product-img {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .product-img {
+        height: 50px;
+        width: 50px;
     }
 }

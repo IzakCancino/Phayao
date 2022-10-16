@@ -35,8 +35,11 @@ descBtnArr.forEach((btn, i) => {
         <div class="space"></div>`;
 
         document.querySelector("main").appendChild(div);
+        
+        document.querySelector("#btn-top").disabled = true;
 
         div.addEventListener("click", () => {
+            document.querySelector("#btn-top").disabled = false;
             div.remove();
             enableScroll();
         });

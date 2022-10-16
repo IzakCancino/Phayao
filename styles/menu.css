@@ -6,6 +6,7 @@
     background-color: var(--colorBlancoA);
     margin: 1%;
     margin-top: 0px;
+    padding-bottom: 20px;
 }
 
 .tarjeta {
@@ -26,7 +27,7 @@
 }
 
 .tarjeta img {
-    width: 100%;
+    width: 90%;
 }
 
 .contador {
@@ -153,4 +154,10 @@
 .deselectedGrupo {
     display: none !important;
     transition: all 200ms linear 0s;
+}
+
+@media only screen and (max-width: 560px) {
+    .tarjeta {
+        width: 40%;
+    }
 }

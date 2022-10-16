@@ -20,6 +20,7 @@
         <div>
             <p>Total: <span class="italic">$</span><span class="italic" id="cnt-amounts">0</span></p>
         </div>
+        <!-- <button class="btn-submit-car">Realizar pedido</button> -->
     </section>
 
     <section id="products">
@@ -45,33 +46,12 @@
             </div>
         </div>
     </section>
-
-    <!-- <div id="description">
-        <div class="space"></div>
-        <section id="des-main">
-            <div class="product-info">
-                <div class="product-img">
-                    <img src="" alt="">
-                </div>
-                <div class="product-name">
-                    <h3>Product</h3>
-                    <p class="italic">$X</p>
-                </div>
-            </div>
-
-            <div class="product-des">
-                <p id="info">Lorem ipsum dolor sit amet consectetur adipisitur error.</p>
-            </div>
-        </section>                          
-        <div class="space"></div>
-    </div> -->
 </main>
 
 
 <?php 
     include("layouts/footer.php"); 
 ?>
-
     <script src="js/create-items.js"></script>
 	<script src="js/shopping-car.js"></script>
     <script src="js/cards-shopping-car.js"></script>

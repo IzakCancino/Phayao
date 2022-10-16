@@ -47,3 +47,34 @@ footer {
 	height: 1.17em;
 	padding: 0px 8px 0px 0px;
 }
+
+@media only screen and (max-width: 520px) {
+    footer {
+        padding: 30px 0px 10px 0px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #footer-der {
+        width: 90%;
+        padding: 20px 0px;
+        border-top: var(--colorVerdeC) solid 2px;
+        border-left: none;
+    }
+
+    #footer-izq {
+        width: 90%;
+        padding: 20px 0px;
+    }
+
+    #mapa {
+        width: 100%;
+    }
+
+    #cc {
+        padding: 20px 15px 0px 15px;
+    }
+}

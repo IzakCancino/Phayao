@@ -39,3 +39,6 @@
 			<p id="cc">Sitio desarrollado por: Izak Cancino</p>
 		</div>
 	</footer>
+
+	<!-- Scripts -->
+    <script src="js/btn-to-top.js"></script>

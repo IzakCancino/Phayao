@@ -12,7 +12,12 @@ function rechargeCnts() {
         return cnt.dataset.productname;
     }
 
-    // Deshabilitador / habilitador de botones
+    /**
+     * Deshabilitador / habilitador de botones
+     * @param {HTMLButtonElement} elmnt - Element to will enabled/disabled 
+     * @param {boolean} bool - New value for the elemnt 
+     * @return {void} Nothing
+     */
     function stateBtn(elmnt, bool) {
         elmnt.disabled = bool;
     }
