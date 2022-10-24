@@ -1,3 +1,6 @@
+/**
+ * Class to create all the products
+ */
 class Product {
     constructor(name, price, description, type) {
         this.name = name,

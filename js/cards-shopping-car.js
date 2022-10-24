@@ -3,6 +3,10 @@ let divCardsArr = [].slice.call(divCardsNodes);
 let cntProducts = document.querySelector("#cnt-products");
 let cntAmount = document.querySelector("#cnt-amounts");
 
+/**
+ * Recharge the products cards in the shopping car page
+ * @return {void} No value
+ */
 function rechargeCards() {
     divCardsNodes.innerHTML = "";
     cntProducts.innerText = 0;
@@ -39,7 +43,7 @@ function rechargeCards() {
     });
 
 
-    // Pop-up descripcion de los productos
+    // Pop-up description from the products
     let imgsNodes = document.querySelectorAll(".imgs");
     let imgsArr = [].slice.call(imgsNodes);
 

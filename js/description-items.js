@@ -1,17 +1,31 @@
-function disableScroll() {
+/**
+ * Change the scrolling state in the page
+ * @param {boolean} state - Determine the new scrolling state
+ * @returns {void} No value
+ */
+function stateScroll(state) {
+    if (state) {
+        document.body.classList.remove("stop-scrolling");
+        return;
+    }
     document.body.classList.add("stop-scrolling");
 }
-  
-function enableScroll() {
-    document.body.classList.remove("stop-scrolling");
-}
 
+/**
+ * Node list with all the description buttons
+ * @type {NodeList}
+ */
 let descBtnNodes = document.querySelectorAll(".descripcionBtn");
+
+/**
+ * Array with all the description buttons
+ * @type {HTMLButtonElement[]}
+ */
 let descBtnArr = [].slice.call(descBtnNodes);
 
 descBtnArr.forEach((btn, i) => {
     btn.addEventListener("click", () => {
-        disableScroll();
+        stateScroll(false);
         let item = eval(btn.dataset.productname);
         let div = document.createElement("div");
         div.id = "description";
@@ -41,7 +55,7 @@ descBtnArr.forEach((btn, i) => {
         div.addEventListener("click", () => {
             document.querySelector("#btn-top").disabled = false;
             div.remove();
-            enableScroll();
+            stateScroll(true);
         });
     });
 });

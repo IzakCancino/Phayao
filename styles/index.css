@@ -2,7 +2,7 @@ body {
     background-color: var(--colorVerdeA);
 }
 
-    /*Seccion "main"*/
+/* Section "main" */
 
 #main {
     text-align: center;
@@ -34,7 +34,7 @@ body {
     font-size: 2.5rem;
 }
 
-    /*Seccion "text"*/
+/* Section "text" */
 
 #text {
     display: flex;

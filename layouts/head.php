@@ -1,3 +1,4 @@
+<!-- This is the universal head in all the pages -->
 <!DOCTYPE html>
 <html>
 <head>

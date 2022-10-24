@@ -1,3 +1,4 @@
+<!-- This is the universal header and the navigation bar in all the pages -->
 </head>
 <body>
 	<header>

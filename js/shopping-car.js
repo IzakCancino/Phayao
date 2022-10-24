@@ -1,16 +1,27 @@
+/** 
+ * The shopping car object
+ * @type {{products: Object[], names: string[], amount: number[]}}
+ * @param {Object[]} products Array of products objects: `{name: string, price: number, description: string, type: string}`
+ * @param {string[]} names Array of the products names saved in the `dataset.productname` of the element
+ * @param {number[]} amount Array with the amount of a individual product
+ */
 let shoppingCar = {
     products: [],
     names: [],
     amount: []
 };
 
-// Obtiene el shoppingCar desde el almacenamiento local
+// Obtain the shopping car from the local storage
 if (localStorage.getItem("shoppingCar")) {
     let obj = JSON.parse(localStorage.getItem("shoppingCar"));
     shoppingCar = obj;
 }
 
-// Agrega algún elemento del shoppingCar y actualiza el almacenamiento local
+/**
+ * Add an element to the shopping car and update the local storage
+ * @param {string} elmnt Name of the element to add
+ * @return {void} No value
+ */
 function addToTheCar(elmnt) {
     let obj = eval(elmnt);
     let i = shoppingCar.names.indexOf(elmnt);
@@ -28,7 +39,11 @@ function addToTheCar(elmnt) {
     localStorage.setItem("shoppingCar", JSON.stringify(shoppingCar));
 }
 
-// Elimina algún elemento del shoppingCar y actualiza el almacenamiento local
+/**
+ * Delete an element to the shopping car and update the local storage
+ * @param {string} elmnt Name of the element to delete
+ * @return {void} No value
+ */
 function removeFromTheCar(elmnt) {
     let i = shoppingCar.names.indexOf(elmnt);
 
@@ -45,7 +60,11 @@ function removeFromTheCar(elmnt) {
     localStorage.setItem("shoppingCar", JSON.stringify(shoppingCar));
 }
 
-// Elimina algún producto completamente del shoppingCar y actualiza el almacenamiento local
+/**
+ * Delete an completely a product to the shopping car and update the local storage
+ * @param {string} elmnt Name of the element to delete totally
+ * @return {void} No value
+ */
 function deleteFromTheCar(elmnt) {
     let i = shoppingCar.names.indexOf(elmnt);
 
