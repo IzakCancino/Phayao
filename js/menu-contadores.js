@@ -15,12 +15,12 @@ function rechargeCnts() {
      */
     let cntArr = [].slice.call(cntNodes);
 
-    // Mensajes
+    // Messages
     let msgAlrtDltProduct = "¿Desea continuar? Si lo hace se eliminara el producto del carrito de compras";
     let msgAlrtMaxCntProducts = "Lo sentimos, no es posible exceder la cantidad de 15 elementos de un mismo producto";
 
     /**
-     * 
+     * Giving a HTML element obtain the dataset.productname value
      * @param {HTMLDivElement} cnt The counter div, with their buttons and the count 
      * @returns {string} The dataset _productname_ in the counter `cnt `
      */

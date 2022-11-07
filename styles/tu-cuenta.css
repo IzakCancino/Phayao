@@ -1,0 +1,52 @@
+body {
+    background-color: var(--colorVerdeA);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section {
+    background: linear-gradient(235deg, #0000001d 0%, #0000002d 75%, #00000014 100%);
+    margin: 5px 5px;
+    padding: 30px;
+    border: 5px solid #ffffffb7;
+}
+
+form {
+    padding: 5px 10px;
+}
+
+input {
+    border: 4px solid #EEE;
+    border-radius: 5px;
+    margin: 5px 10px;
+    font-size: 0.9rem;
+}
+
+input.accepted {
+    border: 4px solid #45d274;
+}
+
+input.denied {
+    border: 4px solid #d26b45;
+}
+
+#btn-submit:enabled:hover {
+    cursor: pointer;
+}
+
+#passWarning {
+    font-size: 0.8rem;
+    font-style: italic;
+}

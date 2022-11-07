@@ -11,6 +11,8 @@
 			<a href="reservaciones.php" id="reservaciones">Reservaciones</a>
 			<a href="contactanos.php" id="contactanos">Contáctanos</a>
 			<div id="div-space-gr"></div>
+			<a href="tu-cuenta.php" id="btn-tu-cuenta">Tu Cuenta</a>
+				 <!-- TODO: Si hay un valor en el almacenamiento local esta logeado, entonces cambiar el color del boton -->
 		</nav>
 		<nav class="dropdown">
 			<button>Menu</button>
@@ -19,6 +21,8 @@
 				<a href="menu.php" id="menu-dd">Menú</a>
 				<a href="reservaciones.php" id="reservaciones-dd">Reservaciones</a>
 				<a href="contactanos.php" id="contactanos-dd">Contáctanos</a>
+				<a href="tu-cuenta.php" id="tucuenta-dd">Tu Cuenta</a>
+				<!-- TODO: Si hay un valor en el almacenamiento local esta logeado, entonces cambiar el color del boton -->
 			</div>
 		</nav>
 		<div id="carrito">

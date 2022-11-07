@@ -1,0 +1,4 @@
+// TODO: Add values to users table: INSERT INTO users (name, lastname, phone, email, password) VALUES ('', '', 0, '', '');
+
+// TODO: Add values to reservation table: INSERT INTO reservations (dateReservation, idUser) VALUES ('AAAA-MM-DD HH:MM:SS', 0);
+// TODO: Al momento de hacer una reservacion que revise si hay un vaor almacenado en el almacenamiento local, si si usarlo como llave foranea, si no pedir login

@@ -37,7 +37,8 @@ header {
 #carrito {
 	height: 95%;
 	width: 10%;
-	flex-basis: 10%;
+	/* flex-basis: 10%; */
+	flex-basis: 4%;
 	display: flex;
 	padding-right: 1.5%;
 	align-content: center;
@@ -48,10 +49,12 @@ header {
 
 nav {
 	height: 60%;
-	flex-basis: 70%;
+	/* flex-basis: 70%; */
+	flex-basis: 78%;
 	display: flex;
 	justify-content: flex-start;
 	text-align: center;
+	align-items: center; /*!!!!!!*/
 }
 
 nav a {
@@ -66,9 +69,14 @@ nav a {
 
 #div-space-gr {
 	width: 40%;
-	flex-basis: 60%;
+	/* flex-basis: 60%; */
 	flex-grow: 1.5;
 	height: 100%;
+}
+
+#btn-tu-cuenta {
+	width: 25%;
+    height: fit-content;
 }
 
 
@@ -104,6 +112,8 @@ nav a {
 }
 
 .dropdown-content a {
+	flex-basis: 10%;
+    flex-grow: 0.5;
 	display: block;
 	color: #000;
 	padding: 5px;
@@ -115,13 +125,13 @@ nav a {
 	background-color: #0000003f;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 680px) {
 	.normal-nav {
 		display: none;
 	}
 }
 
-@media only screen and (min-width: 561px) {
+@media only screen and (min-width: 681px) {
 	.dropdown {
 		display: none;
 	}

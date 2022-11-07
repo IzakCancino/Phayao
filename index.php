@@ -19,13 +19,13 @@
             <p>Somos un restaurante de comida tailandesa, inspirados en sus recetas y tradiciones, traemos para usted la mejor comida al estilo de la provincia de <span class="italic">Phayao</span></p>
         </div>
         <div id="text-izq">
-            <img src="media/picRestaurant.jpg" id="text-img">
+            <img src="media/picRestaurant.jpg" id="text-img" alt="Fotografía exterior restaurante Phayao">
         </div>
     </section>
     <hr>
     <section id="text">
         <div id="text-der">
-            <img src="media/picRestaurant.jpg" id="text-img">
+            <img src="media/picRestaurant2.jpg" id="text-img" alt="Fotografía interior restaurante Phayao">
         </div>
         <div id="text-izq">
             <p>Fideos, arroces, pollo, pescado, mariscos, verduras, postres y bebidas, todo al máximo esplendor del estilo <span class="italic">thai</span>, como traído del valle de las tres montañas</p>
