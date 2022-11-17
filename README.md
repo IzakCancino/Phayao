@@ -2,15 +2,18 @@
 
 ***Phayao is a website for a Thailand restaurant, with all the characteristics needed.*** The website contained has made in Spanish.
 
-<img alt="Image from main page in Phayao" src="https://i.postimg.cc/gj30qD1s/2022-10-22.png" width="100%" align="center"/>
+<img alt="Image from main page in Phayao" src="https://i.postimg.cc/wMdcVzpt/phayao-index.png" width="100%" align="center"/>
 
 ## 📌 Characteristics 
+
+- **Login:** A section for login/create an account, and update your data.
 
 - **Menu:** This section has all the products available in the restaurant, classified in three groups foods, desserts, and drinks. Also, you can add and remove products to the shopping car.
 
 - **Shopping Car:** Accessible with the shopping-car button in the top-right corner in all pages. Here you can see the products that you added from the _Menu_ section, this information have been saved in the local storage of the navigator. Also, you can modify the shopping car in this page, adding, removing, and deleting products from this.
 
 - **Ubication:** Located in the footer of all pages, with more links from the website, and an embed map with the restaurant location.
+
 - **Scroll to top button:** With this button, you can return smooth to the top of the page when you are in a bottom part of this.
 
 ### 🧱 In development:
@@ -19,7 +22,7 @@
 
 - **Contact us:** In this place you will contact us with Email or a phone number, and have commentaries section.
 
-- **Login:** A section for login/create an account, where you can save your shopping cars, view your previous purchases, and modify your profile.
+- **History:** You will can save your shopping cars, and view your previous purchases.
 
 ## 💻 Technical characteristics 
 
@@ -29,7 +32,7 @@
 
 - **JavaScript:** The functionality of the website, the shopping car, the counters, the menu, the scroll to top button. All that was made right from the start with JS.
 
-- **SQL:** In the future, reservation and login sections will be made with *SQL* and *PhpMyAdmin* to manage the databases.
+- **SQL:** Reservation and login sections be made with *SQL* and *PhpMyAdmin* to manage the databases.
 
 ## ✨ Usage
 

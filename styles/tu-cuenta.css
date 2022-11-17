@@ -50,3 +50,37 @@ input.denied {
     font-size: 0.8rem;
     font-style: italic;
 }
+
+/*  */
+
+#sect-log-out {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+}
+
+#sect-log-out a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    transition: background-color 100ms ease-in-out 0s;
+}
+
+#sect-log-out a:hover {
+    background-color: rgba(0, 0, 0, 0.098);
+}
+
+#sect-log-out a img {
+    width: 2rem;
+}
+
+#sect-log-out a p {
+    padding: 0px 20px;
+}

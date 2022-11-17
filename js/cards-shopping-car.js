@@ -42,6 +42,18 @@ function rechargeCards() {
         divCardsNodes.appendChild(div);
     });
 
+    /**
+     * Change the scrolling state in the page
+     * @param {boolean} state - Determine the new scrolling state
+     * @returns {void} No value
+     */
+    function stateScroll(state) {
+        if (state) {
+            document.body.classList.remove("stop-scrolling");
+            return;
+        }
+        document.body.classList.add("stop-scrolling");
+    }
 
     // Pop-up description from the products
     let imgsNodes = document.querySelectorAll(".imgs");
@@ -49,8 +61,12 @@ function rechargeCards() {
 
     imgsArr.forEach((img, i) => {
         img.addEventListener("click", () => {
+            // Disable scrolling
+            stateScroll(false);
+            document.querySelector("#btn-top").disabled = true;
+
+            // Creating pop-up
             let item = eval(img.dataset.productname);
-            console.log(item);
             let div = document.createElement("div");
             div.id = "description";
             div.innerHTML = `
@@ -71,10 +87,12 @@ function rechargeCards() {
                     </div>
                 </section>                          
             <div class="space"></div>`;
-
             document.querySelector("main").appendChild(div);
 
+            // Close pop-up
             div.addEventListener("click", () => {
+                stateScroll(true);
+                document.querySelector("#btn-top").disabled = false;
                 div.remove();
             });
         });
