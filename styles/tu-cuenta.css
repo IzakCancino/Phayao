@@ -51,16 +51,69 @@ input.denied {
     font-style: italic;
 }
 
-/*  */
+/* Shopping cars section */
 
-#sect-log-out {
+#actual-car {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#saved-cars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.cars {
+    background-color: #0000002c;
+    border-radius: 10px;
+    width: 25vw;
+    margin: 3px;
+    padding: 5px;
+}
+
+.cars h4 {
+    text-align: center;
+}
+
+.cars p {
+    padding-left: 10px;
+}
+
+.cars a {
+    width: fit-content;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #000;
+    transition: color 100ms ease 0ms;
+}
+
+.cars a:hover {
+    color: #5d5d5d;
+}
+
+.cars a p {
+    font-style: italic;
+    font-size: 0.8rem;
+    padding-left: 53%;
+}
+
+/* More options section */
+
+#more-options {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: stretch;
 }
 
-#sect-log-out a {
+#more-options a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -73,14 +126,14 @@ input.denied {
     transition: background-color 100ms ease-in-out 0s;
 }
 
-#sect-log-out a:hover {
+#more-options a:hover {
     background-color: rgba(0, 0, 0, 0.098);
 }
 
-#sect-log-out a img {
+#more-options a img {
     width: 2rem;
 }
 
-#sect-log-out a p {
+#more-options a p {
     padding: 0px 20px;
 }

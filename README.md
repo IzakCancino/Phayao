@@ -6,7 +6,7 @@
 
 ## 📌 Characteristics 
 
-- **Login:** A section for login/create an account, and update your data.
+- **Account:** A section for login/create an account, view your data and saved shopping cars.
 
 - **Menu:** This section has all the products available in the restaurant, classified in three groups foods, desserts, and drinks. Also, you can add and remove products to the shopping car.
 
@@ -22,7 +22,7 @@
 
 - **Contact us:** In this place you will contact us with Email or a phone number, and have commentaries section.
 
-- **History:** You will can save your shopping cars, and view your previous purchases.
+- **History:** You will can view your previous purchases.
 
 ## 💻 Technical characteristics 
 
@@ -32,7 +32,7 @@
 
 - **JavaScript:** The functionality of the website, the shopping car, the counters, the menu, the scroll to top button. All that was made right from the start with JS.
 
-- **SQL:** Reservation and login sections be made with *SQL* and *PhpMyAdmin* to manage the databases.
+- **SQL:** Account, shopping cars and reservations sections be made with *SQL* and *PhpMyAdmin* to manage the databases.
 
 ## ✨ Usage
 
