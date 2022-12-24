@@ -40,6 +40,22 @@ section#products {
     width: 60%;
 }
 
+.btn-submit-car {
+    height: 2.6rem;
+    width: 8rem;
+    float: right;
+    margin: 0px 5px 5px 0px;
+    background-color: #0000003c;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    transition: background-color 200ms var(--timingFunction) 0ms;
+}
+
+.btn-submit-car:hover {
+    background-color: #00000056;
+}
+
 
 /* items */
 .tarjeta {
@@ -116,12 +132,12 @@ section#products {
 
 .menosBtn {
     background-color: var(--colorRojoC);
-    transition: background-color 80ms ease-out 0s;
+    transition: background-color 80ms var(--timingFunction) 0s;
 }
 
 .menosBtn:hover:enabled {
     background-color: var(--colorRojoD);
-    transition: background-color 80ms ease-out 0s;
+    transition: background-color 80ms var(--timingFunction) 0s;
 }
 
 .menosBtn:active:enabled {
@@ -130,12 +146,12 @@ section#products {
 
 .masBtn {
     background-color: var(--colorVerdeC);
-    transition: background-color 80ms ease-out 0s;
+    transition: background-color 80ms var(--timingFunction) 0s;
 }
 
 .masBtn:hover:enabled {
     background-color: var(--colorVerdeE);
-    transition: background-color 80ms ease-out 0s;
+    transition: background-color 80ms var(--timingFunction) 0s;
 }
 
 .masBtn:active:enabled {
@@ -148,7 +164,7 @@ button.deleteBtn, button.des-close {
     max-width: 26px !important;
     max-height: 26px !important;
     background-color: gray;
-    transition: background-color 80ms ease-out 0s;
+    transition: background-color 80ms var(--timingFunction) 0s;
 }
 
 button.deleteBtn img {
@@ -157,7 +173,7 @@ button.deleteBtn img {
 
 button.deleteBtn:hover, button.des-closed:hover {
     background-color: #875252;
-    transition: background-color 80ms ease-out 0s;
+    transition: background-color 80ms var(--timingFunction) 0s;
 }
 
 button.deleteBtn:active, button.des-closed:active {

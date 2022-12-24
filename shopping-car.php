@@ -20,7 +20,7 @@
         <div>
             <p>Total: <span class="italic">$</span><span class="italic" id="cnt-amounts">0</span></p>
         </div>
-        <!-- <button class="btn-submit-car">Realizar pedido</button> -->
+        <button class="btn-submit-car">Realizar pedido</button>
     </section>
 
     <section id="products">

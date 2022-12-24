@@ -91,7 +91,7 @@ input.denied {
     font-size: 0.9rem;
     text-decoration: none;
     color: #000;
-    transition: color 100ms ease 0ms;
+    transition: color 100ms var(--timingFunction) 0ms;
 }
 
 .cars a:hover {
@@ -123,11 +123,11 @@ input.denied {
     text-decoration: none;
     color: #000;
     padding: 10px;
-    transition: background-color 100ms ease-in-out 0s;
+    transition: background-color 100ms var(--timingFunction) 0s;
 }
 
 #more-options a:hover {
-    background-color: rgba(0, 0, 0, 0.098);
+    background-color: #00000019;
 }
 
 #more-options a img {

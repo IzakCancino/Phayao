@@ -1,5 +1,5 @@
 #description {
-    background-color: rgba(0, 0, 0, 0.808);
+    background-color: #000000ce;
     min-width: 100vw;
     height: 100%;
     position: fixed;
@@ -11,7 +11,7 @@
 
 #des-main {
     background: linear-gradient(235deg, #ffffffd5 0%, #ffffffcb 75%, #ffffffe1 100%);
-    color: rgb(32, 32, 32);
+    color: #202020;
     height: 52vh;
     margin: 5px 15px;
     padding: 10px;

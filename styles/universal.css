@@ -16,10 +16,12 @@ html {
     --colorRojoD: #7a583e;
     --colorRojoE: #5f432d;
     --colorBlancoA: whitesmoke;
-    --colorBlancoB: rgb(222, 222, 222);
+    --colorBlancoB: #dedede;
     --colorCafeA: #c16d46;
     --colorCafeB: #cb8665;
     --colorCafeC: #d19579;
+
+    --timingFunction: cubic-bezier(0,.15,.83,1);
 }
 
 .italic {
@@ -46,7 +48,7 @@ html {
     position: fixed;
     bottom: 3vh;
     right: 1vw;
-    transition: opacity 100ms ease-in-out 0s;
+    transition: opacity 100ms var(--timingFunction) 0s;
     cursor: pointer;
 }
 
