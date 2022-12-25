@@ -20,7 +20,7 @@ function stateScroll(state) {
 function popUp(title = "Titulo", message = "Mensaje") {
     // Disable scrolling
     stateScroll(false);
-    document.querySelector("#btn-top").disabled = true;
+    btnTop.disabled = true;
 
     // Creating pop-up
     let div = document.createElement("div");
@@ -37,7 +37,7 @@ function popUp(title = "Titulo", message = "Mensaje") {
 
     // Close pop-up
     div.addEventListener("click", () => {
-        document.querySelector("#btn-top").disabled = false;
+        btnTop.disabled = false;
         stateScroll(true);
         div.remove();
     });

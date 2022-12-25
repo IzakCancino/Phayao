@@ -12,13 +12,13 @@
 <main>
 	<div id="secciones">
 		<div id="divComidas">
-			<button id="btnComidas">Comidas</button>
+			<button id="btnComidas" class="btnSeccion">Comidas</button>
 		</div>
 		<div id="divPostres" class="deselectedSeccion">
-			<button id="btnPostres">Postres</button>
+			<button id="btnPostres" class="btnSeccion">Postres</button>
 		</div>
 		<div id="divBebidas" class="deselectedSeccion">
-			<button id="btnBebidas">Bebidas</button>
+			<button id="btnBebidas" class="btnSeccion">Bebidas</button>
 		</div>
 	</div>
 

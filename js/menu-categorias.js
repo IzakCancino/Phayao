@@ -1,36 +1,22 @@
-const btnComidas = document.querySelector("#btnComidas");
-const btnPostres = document.querySelector("#btnPostres");
-const btnBebidas = document.querySelector("#btnBebidas");
-const divsBtns = document.querySelectorAll("#secciones div");
+/** Array with all the section buttons */
+const btnsSections = document.querySelectorAll(".btnSeccion");
+
+/** Array with all the sections */
 const sections = document.querySelectorAll("main section");
 
-btnComidas.addEventListener("click", () => {
-    divsBtns[0].classList.remove("deselectedSeccion");
-    divsBtns[1].classList.add("deselectedSeccion");
-    divsBtns[2].classList.add("deselectedSeccion");
-
-    sections[0].classList.remove("deselectedGrupo");
-    sections[1].classList.add("deselectedGrupo");
-    sections[2].classList.add("deselectedGrupo");
+btnsSections.forEach(elmnt => {
+    elmnt.addEventListener("click", () => {
+        /**
+         * In each section check if the id of the pressed button and the current section being checked are equal, if yes: remove the "deselected" classes, if not: add the "deselected" classes, to the section and the button
+        */
+        for (let i = 0; i < 3; i++) {
+            if (btnsSections[i].id === elmnt.id) {
+                btnsSections[i].parentNode.classList.remove("deselectedSeccion");
+                sections[i].classList.remove("deselectedGrupo");
+                continue;
+            }
+            btnsSections[i].parentNode.classList.add("deselectedSeccion");
+            sections[i].classList.add("deselectedGrupo");
+        }
+    })
 });
-
-btnPostres.addEventListener("click", () => {
-    divsBtns[0].classList.add("deselectedSeccion");
-    divsBtns[1].classList.remove("deselectedSeccion");
-    divsBtns[2].classList.add("deselectedSeccion");
-
-    sections[0].classList.add("deselectedGrupo");
-    sections[1].classList.remove("deselectedGrupo");
-    sections[2].classList.add("deselectedGrupo");
-});
-
-btnBebidas.addEventListener("click", () => {
-    divsBtns[0].classList.add("deselectedSeccion");
-    divsBtns[1].classList.add("deselectedSeccion");
-    divsBtns[2].classList.remove("deselectedSeccion");
-
-    sections[0].classList.add("deselectedGrupo");
-    sections[1].classList.add("deselectedGrupo");
-    sections[2].classList.remove("deselectedGrupo");
-});
-

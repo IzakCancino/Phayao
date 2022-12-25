@@ -94,7 +94,7 @@ function rechargeCnts() {
 
         // Update the values from all the counters to the initial value obtained
         shoppingCar.names.forEach((product, i) => {
-            if (obtainProduct(cnt) == product) { 
+            if (obtainProduct(cnt) === product) { 
                 cnt.children[1].innerText = shoppingCar.amount[i];
             }
         });

@@ -20,7 +20,7 @@
         <div>
             <p>Total: <span class="italic">$</span><span class="italic" id="cnt-amounts">0</span></p>
         </div>
-        <button class="btn-submit-car">Realizar pedido</button>
+        <a href="pedidos.php" class="btn-submit-car">Realizar pedido</a>
     </section>
 
     <section id="products">

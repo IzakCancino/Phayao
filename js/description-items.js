@@ -28,7 +28,7 @@ descBtnArr.forEach((btn, i) => {
     btn.addEventListener("click", () => {
         // Disable scrolling
         stateScroll(false);
-        document.querySelector("#btn-top").disabled = true;
+        btnTop.disabled = true;
 
         // Creating pop-up
         let item = eval(btn.dataset.productname);
@@ -56,7 +56,7 @@ descBtnArr.forEach((btn, i) => {
 
         // Close pop-up
         div.addEventListener("click", () => {
-            document.querySelector("#btn-top").disabled = false;
+            btnTop.disabled = false;
             stateScroll(true);
             div.remove();
         });

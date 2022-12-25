@@ -1,7 +1,9 @@
 let divCardsNodes = document.querySelector("#products");
 let divCardsArr = [].slice.call(divCardsNodes);
-let cntProducts = document.querySelector("#cnt-products");
-let cntAmount = document.querySelector("#cnt-amounts");
+
+let divInfo = document.querySelector("#info");
+let cntProducts = divInfo.children[1].children[0].children[0];
+let cntAmount = divInfo.children[2].children[0].children[0];
 
 /**
  * Recharge the products cards in the shopping car page
@@ -63,7 +65,7 @@ function rechargeCards() {
         img.addEventListener("click", () => {
             // Disable scrolling
             stateScroll(false);
-            document.querySelector("#btn-top").disabled = true;
+            btnTop.disabled = true;
 
             // Creating pop-up
             let item = eval(img.dataset.productname);
@@ -92,7 +94,7 @@ function rechargeCards() {
             // Close pop-up
             div.addEventListener("click", () => {
                 stateScroll(true);
-                document.querySelector("#btn-top").disabled = false;
+                btnTop.disabled = false;
                 div.remove();
             });
         });

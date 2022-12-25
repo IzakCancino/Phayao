@@ -35,20 +35,20 @@ inputsArr.map((input) => {
                 .slice
                 .call(input.parentNode.children)
                 .filter(elmnt => elmnt.type != "submit" && elmnt.formAction)
-                .every(elmnt => [].slice.call(elmnt.classList).some(clss => clss == "accepted"))
+                .every(elmnt => [].slice.call(elmnt.classList).some(clss => clss === "accepted"))
         ) {
             // If yes, enable the submit button in these form
             []
                 .slice
                 .call(input.parentNode.children)
-                .filter(elmnt => elmnt.type == "submit")
+                .filter(elmnt => elmnt.type === "submit")
                 [0].disabled = false;
         } else {
             // If no, disable the submit button in these form
             []
                 .slice
                 .call(input.parentNode.children)
-                .filter(elmnt => elmnt.type == "submit")
+                .filter(elmnt => elmnt.type === "submit")
                 [0].disabled = true;
         }
     });
@@ -75,7 +75,7 @@ passCrArr.map((passInputs) => {
 
     passInputs.addEventListener("change", () => {
         // If both password input has the same value, and some of the password inputs has the class "accepted"
-        if (passCrArr[0].value == passCrArr[1].value && [].slice.call(passInputs.classList).some(elmnt => elmnt == "accepted")) {
+        if (passCrArr[0].value === passCrArr[1].value && [].slice.call(passInputs.classList).some(elmnt => elmnt === "accepted")) {
             // If yes, remove to both inputs the class "denied", and add the class "accepted"
             passCrArr[1].classList.remove("denied");
             passCrArr[1].classList.add("accepted");
@@ -89,18 +89,18 @@ passCrArr.map((passInputs) => {
             if ([]
                     .slice
                     .call(passInputs.parentNode.children)
-                    .filter(elmnt => [].slice.call(elmnt.classList).some(clss => clss == "accepted")) &&
+                    .filter(elmnt => [].slice.call(elmnt.classList).some(clss => clss === "accepted")) &&
                 []
                     .slice
                     .call(passInputs.parentNode.children)
                     .filter(elmnt => elmnt.type != "submit" && elmnt.formAction)
-                    .every(elmnt => [].slice.call(elmnt.classList).some(clss => clss == "accepted"))
+                    .every(elmnt => [].slice.call(elmnt.classList).some(clss => clss === "accepted"))
             ) {
                 // If yes, enable the "submit" button
                 []
                     .slice
                     .call(passInputs.parentNode.children)
-                    .filter(elmnt => elmnt.type == "submit")
+                    .filter(elmnt => elmnt.type === "submit")
                     [0].disabled = false;
             }
         } else {
@@ -114,7 +114,7 @@ passCrArr.map((passInputs) => {
             []
                 .slice
                 .call(passInputs.parentNode.children)
-                .filter(elmnt => elmnt.type == "submit")
+                .filter(elmnt => elmnt.type === "submit")
                 [0].disabled = true;
 
             // If the warning don't exist, create it

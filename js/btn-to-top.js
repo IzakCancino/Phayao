@@ -1,6 +1,4 @@
-/**
- * Button to top element
- */
+/** Button to top element */
 let btnTop = document.createElement("button");
 btnTop.id = "btn-top";
 btnTop.innerText = "↑";
@@ -22,3 +20,5 @@ window.addEventListener("scroll", () => {
         btnTop.disabled = true;
     }
 });
+
+btnTop = document.querySelector("#btn-top");
