@@ -6,8 +6,6 @@
 
 ## 📌 Characteristics 
 
-- **Account:** A section for login/create an account, view your data and saved shopping cars.
-
 - **Menu:** This section has all the products available in the restaurant, classified in three groups foods, desserts, and drinks. Also, you can add and remove products to the shopping car.
 
 - **Shopping Car:** Accessible with the shopping-car button in the top-right corner in all pages. Here you can see the products that you added from the _Menu_ section, this information have been saved in the local storage of the navigator. Also, you can modify the shopping car in this page, adding, removing, and deleting products from this.
@@ -17,6 +15,8 @@
 - **Scroll to top button:** With this button, you can return smooth to the top of the page when you are in a bottom part of this.
 
 ### 🧱 In development:
+
+- **Account:** A section for login/create an account, view your data and saved shopping cars.
 
 - **Reservations:** Here you will do a reservation in the restaurant from the website.
 
@@ -44,7 +44,7 @@ Commentaries as totally accepted, you can do contributions and recommendations t
 ## Author
 Izak Cancino
 - GitHub: [@IzakCancino](https://github.com/IzakCancino)
-- Portfolio: [izakcancino.infinityfreeapp.com](http://izakcancino.infinityfreeapp.com)
+- Portfolio: [izakcancino.github.io](https://izakcancino.github.io)
 
 ## 📝 License
 [GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)
